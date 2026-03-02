@@ -1,0 +1,26 @@
+<annotation>
+	<folder>imagenes ML</folder>
+	<filename>imagen_45.webp</filename>
+	<path>C:\Users\alejo\OneDrive\Documents\Universidad\Maestria\Aplicaciones IA\Proyecto CV2\imagenes ML\imagen_45.webp</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1311</width>
+		<height>874</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>House</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>45</xmin>
+			<ymin>107</ymin>
+			<xmax>1221</xmax>
+			<ymax>677</ymax>
+		</bndbox>
+	</object>
+</annotation>

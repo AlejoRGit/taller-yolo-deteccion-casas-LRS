@@ -1,0 +1,50 @@
+<annotation>
+	<folder>imagenes ML</folder>
+	<filename>imagen_31.jpg</filename>
+	<path>C:\Users\alejo\OneDrive\Documents\Universidad\Maestria\Aplicaciones IA\Proyecto CV2\imagenes ML\imagen_31.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3264</width>
+		<height>2448</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>House</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>942</xmin>
+			<ymin>634</ymin>
+			<xmax>2717</xmax>
+			<ymax>1984</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>House</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2617</xmin>
+			<ymin>454</ymin>
+			<xmax>3237</xmax>
+			<ymax>1994</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>House</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>7</xmin>
+			<ymin>739</ymin>
+			<xmax>927</xmax>
+			<ymax>1729</ymax>
+		</bndbox>
+	</object>
+</annotation>
