@@ -1,0 +1,1 @@
+# taller-yolo-deteccion-casas-LRS
