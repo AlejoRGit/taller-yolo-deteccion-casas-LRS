@@ -15,7 +15,7 @@ device: cpu
 workers: 8
 project: c:\Users\alejo\OneDrive\Documents\Universidad\Maestria\Aplicaciones IA\Proyecto
   CV2\taller-yolo-deteccion-casas-LRS\models
-name: house_detector
+name: house_detector4
 exist_ok: false
 pretrained: true
 optimizer: auto
@@ -109,4 +109,4 @@ erasing: 0.4
 cfg: null
 tracker: botsort.yaml
 save_dir: C:\Users\alejo\OneDrive\Documents\Universidad\Maestria\Aplicaciones IA\Proyecto
-  CV2\taller-yolo-deteccion-casas-LRS\models\house_detector
+  CV2\taller-yolo-deteccion-casas-LRS\models\house_detector4
