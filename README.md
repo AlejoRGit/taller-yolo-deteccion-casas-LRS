@@ -176,11 +176,11 @@ Estos resultados son razonables considerando el tamaño reducido del dataset.
 
 ### Detección correcta (casa grande)
 
-![deteccion casa grande](docs/images/detection1.png)
+![deteccion casa grande](docs/images/detection2.png)
 
 ### Detección correcta (casa pequeña)
 
-![deteccion casa pequeña](docs/images/detection2.png)
+![deteccion casa pequeña](docs/images/detection1.png)
 
 ### Imagen sin casas (sin detección)
 
