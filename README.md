@@ -49,6 +49,10 @@ taller-yolo-deteccion-casas-LRS
 
 Primero clonar el repositorio o descargar el proyecto.
 
+```bash
+git clone https://github.com/AlejoRGit/taller-yolo-deteccion-casas-LRS.git
+```
+
 Luego instalar las dependencias necesarias:
 
 ```bash
@@ -58,7 +62,15 @@ pip install -r requirements.txt
 ### requirements.txt
 
 El archivo `requirements.txt` debe contener:
+Estas son las librerias necesarias: 
 
+- ultralytics
+- fastapi
+- uvicorn
+- pillow
+- opencv-python
+- numpy
+- python-multipart
 
 ---
 
@@ -85,7 +97,7 @@ Formato de anotación utilizado: **YOLO**
 
 El modelo se entrena utilizando **YOLOv8** de la librería `ultralytics`.
 
-Para entrenar el modelo ejecutar:
+Para entrenar el modelo si se desea volver a entrenar se puede ejecutar:
 
 ```bash
 python src/train_yolo.py
@@ -102,7 +114,7 @@ models/house_detector/weights/best.pt
 # 🔎 Inferencia
 
 Para realizar detección sobre una imagen utilizando el script de inferencia:
-
+Se guardo una imagen de ejemplo directamente en el repositorio para el uso dentro del archivo
 ```bash
 python src/inferencia.py
 ```
