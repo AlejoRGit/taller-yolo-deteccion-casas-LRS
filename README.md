@@ -115,6 +115,12 @@ El script cargará el modelo entrenado y detectará la clase **House** en la ima
 
 Se implementó un **endpoint simple utilizando FastAPI** que permite enviar una imagen y obtener como respuesta la misma imagen con las detecciones realizadas por el modelo.
 
+## Instalar la API
+Instalar las librerias necesarias para el API usando
+
+```bash
+pip install uvicorn fastapi
+```
 ## Ejecutar la API
 
 Desde la carpeta raíz del proyecto ejecutar:
@@ -128,14 +134,14 @@ El servidor se iniciará en:
 ```
 http://127.0.0.1:8000
 ```
-
+De no iniciar automaticamente pasar al siguiente punto
 ---
 
 ## Usar la API
 
 FastAPI genera automáticamente una interfaz interactiva.
 
-Abrir en el navegador:
+Abrir en el navegador la siguiente dirección:
 
 ```
 http://127.0.0.1:8000/docs
@@ -143,8 +149,8 @@ http://127.0.0.1:8000/docs
 
 Pasos para usar la API:
 
-1. Abrir `/predict`
-2. Subir una imagen
+1. Abrir `/predict` lo que desplegará una lista de opciones.
+2. Subir una imagen  
 3. Ejecutar la petición
 4. El sistema devolverá la imagen con las **bounding boxes y scores del modelo**
 
@@ -197,6 +203,7 @@ Esto puede provocar:
 - falsos negativos
 - dificultad para detectar casas en escenas complejas
 - sensibilidad a cambios fuertes de escala o iluminación
+- Encontrar tipos de casas con formas muy extrañas que confunda el modelo o termine haciendo que el modelo divida la casa en varias
 
 ---
 
@@ -204,9 +211,9 @@ Esto puede provocar:
 
 Posibles mejoras para el modelo:
 
-- aumentar el tamaño del dataset
+- aumentar el tamaño del dataset y utilizar imagenes más espeficicas, aunque obligue al modelo a ser más especifico en cuando al tipo de casas puede ser una mejora notable ya que existe demasiada variedad en los tipos de casas y su funcionalidad
 - aplicar técnicas de **data augmentation**
-- mejorar la calidad de las anotaciones
+- mejorar la calidad de las anotaciones, utilizando mejores fotos o con diferentes tecnicas para los borders
 - utilizar arquitecturas más grandes de YOLO
 - evaluar el modelo en datasets más diversos
 
